@@ -1,0 +1,70 @@
+@media screen and (min-width: 767px) and (max-width:850px), (min-width: 851px)
+{
+
+
+    h2
+    {
+        font-size:1.5em;
+    }
+
+    .col1, .col2, .col3
+    {
+        float:left;
+        margin-right:5%;
+        width:20%;
+    }
+    .cols 
+    {
+        padding: 50px 10px 5px 10px;
+        line-height: 1.5
+      }
+
+    .main-content
+    {
+        float:left;
+        width:65%;
+        margin-right:5%;
+    }
+
+    .cols
+    {
+        line-height: 1.5;
+        padding: 50px 10px 5px 10px;
+    }
+
+    .col1, .col2, .col3
+    {
+        float:left;
+        width:30%;
+        margin-right:5%;
+    }
+
+    .col3
+    {
+        margin-right:0%;
+    }
+
+    .sidebar
+    {
+        float:left;
+        width:30%;
+    }
+
+    .sidebox-1
+    {
+          display:block;
+    }
+      
+      .clearfix:after { content: ""; display: table;clear: both; }
+    }
+
+@media screen and (min-width: 537px) and (max-width: 766px)
+{
+    .col1, .col2
+    {
+        width:45%;
+        float:left;
+        margin-right:5%;
+    }
+    .sidebox-1{display:block;}
+}
